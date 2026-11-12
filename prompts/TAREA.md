@@ -35,4 +35,16 @@ Actúa como un programador experto en desarrollo de programas educativos. Crea u
 | Restricción| No usar librerías externas.|
 
 ## Evaluacion del resultado
+| Criterio | Prompt 1 | Prompt 2 | Prompt 3 |
+|----------|-------------|---------------------|---------------------|
+| Menciona el objetivo del sistema | si|si | si|
+| Menciona a los usuarios principales | no|no | si|
+| Tiene exactamente 3 funcionalidades | no | no|si|
+| Esta en 3 parrafos | no|no |no |
+| Lo usaria en un informe real |no |no |si|
+
 ## Errores que evite
+
+1. Ser demasiado general: El prompt inicial solo pedía calcular un promedio. Lo hice más específico al indicar que el sistema debe registrar estudiantes, validar notas de 0 a 20 y determinar si aprobaron con un promedio mínimo de 11.
+
+2. No indicar el formato: La solicitud no especificaba cómo presentar los resultados. Añadí que el programa debe mostrar un reporte ordenado con el nombre, las notas, el promedio y el resultado de cada estudiante.
